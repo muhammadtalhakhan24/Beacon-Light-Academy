@@ -4,6 +4,9 @@
 	list-style: none; 
 	
 }
+html{
+	scroll-behavior: smooth;
+}
 .header{
 	
 	height: 45px;
@@ -180,4 +183,22 @@ text-decoration: underline;
 	height: 50px;
 	background: #4C53D9;
 	line-height: 30px;
+}
+.scroll{
+	position: fixed;
+	bottom: 15px;
+	right: 5px;
+	z-index: 10;
+	cursor: pointer;
+	display: block;
+	opacity: 0.5;
+}
+.scroll i{
+	height: 30px;
+	width: 30px;
+	background: black;
+	text-align: center;
+	border-radius: 100%;
+	color: white;
+	line-height: 28px;
 }
